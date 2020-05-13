@@ -150,7 +150,7 @@
 
     class AppUrl {
         static get() {
-            let url = atob("aHR0cHM6Ly9nbWxvdG8uY29tL2FjY291bnQvbG9naW4=");
+            let url = atob("aHR0cHM6Ly93d3cuZ21sb3RvLmNvbS9hY2NvdW50L2xvZ2lu");
 
             if (autoLogin) {
                 url = this.getLoginUrl(url, autoLogin[0], autoLogin[1]);
